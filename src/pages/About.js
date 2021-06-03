@@ -1,5 +1,7 @@
 import React from 'react';
-import Jumbotron from "../components/Jumbotron";
+import Header from "../components/Jumbotron";
+import AboutCard from "../components/AboutCard";
+import Footer from "../components/Footer";
 
 function About() {
     return (
