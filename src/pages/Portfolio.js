@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import PortfolioCard from "../components/PortfolioCard";
 import Footer from "../components/Footer";
 import projects from "../utils/projects";
+import Container from "../components/Container";
 
 function Portfolio() {
     return (

@@ -1,32 +1,29 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div class="jumbotron">
-      <div class="container">
-        <h2 class="display-4 text-center">Nathan Walsh</h2>
-        <p class="lead text-center">Full-stack web developer</p>
-        <ul class="nav justify-content-center nes-list is-disc">
-          <li class="nav-item mx-2">
-            <a class="nav-link pr-3 pl-1" href="#">
+    <div className="jumbotron">
+      <div className="container">
+        <h2 className="display-4 text-center">Nathan Walsh</h2>
+        <p className="lead text-center">Full-Stack Web Developer</p>
+        <ul className="nav justify-content-center nes-list is-disc">
+          <li className="nav-item mx-2">
+            <Link className="nav-link pr-3 pl-1" to="/">
               About
-            </a>
+            </Link>
           </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link pr-3 pl-1" href="#">
+          <li className="nav-item mx-2">
+            <Link className="nav-link pr-3 pl-1" to="/portfolio">
               Portfolio
-            </a>
+            </Link>
           </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link pr-3 pl-1" href="#">
+          <li className="nav-item mx-2">
+            <Link className="nav-link pr-3 pl-1" to="/skills">
               Skills
-            </a>
+            </Link>
           </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link pr-3 pl-1" href="#">
-              Contact
-            </a>
-          </li>
+
         </ul>
       </div>
     </div>

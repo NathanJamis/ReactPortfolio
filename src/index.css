@@ -8,3 +8,12 @@ html {
 body, .jumbotron {
   background: transparent;
 }
+.nes-icon {
+  margin-right: 32px;
+}
+.linkedin {
+  margin-bottom: 12px!important;
+}
+.list-item {
+  margin-bottom: 10px;
+}

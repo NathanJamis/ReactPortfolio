@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../components/Jumbotron";
+import Header from "../components/Header";
 import AboutCard from "../components/AboutCard";
 import Footer from "../components/Footer";
 

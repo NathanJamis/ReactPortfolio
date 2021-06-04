@@ -5,7 +5,6 @@ function AboutCard() {
     <div className="container">
       <div className="card nes-container with-title is-centered mb-5">
         <p className="title nes-container">About</p>
-        <div className="card-body">
           <p>
             Obi-Wan Kenobi...Obi-Wan? Now thats a name I haven't heard in a long
             time...a long time. I think my uncle knew him. He said he was dead.
@@ -21,7 +20,6 @@ function AboutCard() {
             account. I'm done for. No, you're not. What kind of talk is that?
             Quickly, son...they're on the move.
           </p>
-        </div>
       </div>
     </div>
   );
