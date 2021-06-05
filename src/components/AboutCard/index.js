@@ -1,25 +1,19 @@
 import React from "react";
+import headshot from "../../images/headshot.jpg";
 
 function AboutCard() {
   return (
     <div className="container">
       <div className="card nes-container with-title is-centered mb-5">
         <p className="title nes-container">About</p>
-          <p>
-            Obi-Wan Kenobi...Obi-Wan? Now thats a name I haven't heard in a long
-            time...a long time. I think my uncle knew him. He said he was dead.
-            Oh, he's not dead, not...not yet. You know him! Well of course, of
-            course I know him. He's me! I haven't gone by the name Obi-Wan since
-            oh, before you were born. Then the droid does belong to you. Don't
-            seem to remember ever owning a droid. Very interesting... I think we
-            better get indoors. The Sandpeople are easily startled but they will
-            soon be back and in greater numbers. Threepio! Where am I? I must
-            have taken a bad step... Can you stand? We've got to get out of here
-            before the Sandpeople return. I don't think I can make it. You go
-            on, Master Luke. There's no sense in you risking yourself on my
-            account. I'm done for. No, you're not. What kind of talk is that?
-            Quickly, son...they're on the move.
-          </p>
+          <div className="card-body">
+          <img className="img-responsive float-left mb-3" width="250px" height="260px" src={headshot}></img>
+
+
+          <p className="mt-3">Hello there! Your friendly neighborhood web-dev here!</p>
+          <p>I am a creator. I love to create, make, and build. My wide artistic taste allows me to appreciate all eras, styles, and forms of art. On the other side of my brain, my need to analyze and seek logical solutions to problems. I've learned how to combine them and find my path.</p>
+          <p>For so long, I have wanted to learn to code, and now that dream is a reality. I am currently learning web development through the University of Washington, and I am ready to start building the next great web app!</p>
+          </div>
       </div>
     </div>
   );
