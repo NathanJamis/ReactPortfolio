@@ -7,6 +7,10 @@ function Header() {
       <div className="container">
         <h2 className="display-4 text-center">Nathan Walsh</h2>
         <p className="lead text-center">Full-Stack Web Developer</p>
+        <p className="text-center">Bothell, WA</p>
+        <a href="mailto:jamis.walsh@gmail.com" className="text-center" target="_blank" rel="noreferrer">
+          <p className="text-center">jamis.walsh@gmail.com</p>
+        </a>
         <ul className="nav justify-content-center nes-list is-disc">
           <li className="nav-item mx-2">
             <Link className="nav-link pr-3 pl-1" to="/">

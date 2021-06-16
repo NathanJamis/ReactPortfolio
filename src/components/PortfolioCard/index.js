@@ -6,6 +6,9 @@ function PortfolioCard(props) {
         <p className="title nes-container">{props.title}</p>
         <div className="card-body">
           <p>{props.description}</p>
+          <hr></hr>
+          <img src={props.screenshot} className="rounded img-fluid screenshot" alt="Project Screenshot"></img>
+          <hr></hr>
           <a href={props.website} target="_blank" rel="noreferrer">
             <button type="button" className="nes-btn is-primary">Website</button>
           </a>

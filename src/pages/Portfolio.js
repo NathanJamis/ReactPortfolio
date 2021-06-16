@@ -17,6 +17,7 @@ function Portfolio() {
                         description={project.description}
                         website={project.website}
                         github={project.github}
+                        screenshot={project.screenshot}
                     />
                 })
                 }
