@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.80e9c2c4.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.db56a8c4.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.db56a8c4.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.1a76d20e.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.1a76d20e.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.97b9849f.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.97b9849f.js.map",
     "static/js/2.92fa77c3.chunk.js": "/ReactPortfolio/static/js/2.92fa77c3.chunk.js",
@@ -10,12 +10,16 @@
     "index.html": "/ReactPortfolio/index.html",
     "static/css/main.80e9c2c4.chunk.css.map": "/ReactPortfolio/static/css/main.80e9c2c4.chunk.css.map",
     "static/js/2.92fa77c3.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.92fa77c3.chunk.js.LICENSE.txt",
-    "static/media/headshot.7b5a6ddc.jpg": "/ReactPortfolio/static/media/headshot.7b5a6ddc.jpg"
+    "static/media/booksearch.72834c3c.png": "/ReactPortfolio/static/media/booksearch.72834c3c.png",
+    "static/media/cureforboredom.5848912e.png": "/ReactPortfolio/static/media/cureforboredom.5848912e.png",
+    "static/media/dejabrew.9f48afb0.png": "/ReactPortfolio/static/media/dejabrew.9f48afb0.png",
+    "static/media/headshot.7b5a6ddc.jpg": "/ReactPortfolio/static/media/headshot.7b5a6ddc.jpg",
+    "static/media/techblog.36a640d3.png": "/ReactPortfolio/static/media/techblog.36a640d3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.97b9849f.js",
     "static/js/2.92fa77c3.chunk.js",
     "static/css/main.80e9c2c4.chunk.css",
-    "static/js/main.db56a8c4.chunk.js"
+    "static/js/main.1a76d20e.chunk.js"
   ]
 }
